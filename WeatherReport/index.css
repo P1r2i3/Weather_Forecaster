@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(49, 49, 65);
+}
+input[type="search"]{
+    width: 'fit-content';
+    padding-left: 10px;
+    font-weight:500;
+    font-size:20px;
+    border: 1px solid black;
+
+}
+button{
+    margin-left: 10px;
+}
+
+
+#cont,#cont1{
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: rgb(101, 108, 137);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: 300px; 
+
+    
+}
+#cont1{
+    
+    justify-content: space-between;
+    height:fit-content;
+    
+    
+}
+.days{
+    border-top: 2px solid black;
+    padding: 50px;
+        
+    display: flex;
+    justify-content: space-between;
+}
+h4,h5{
+    font-size: 17px;
+    margin-top: 7px;
+}
+.weather,.moment{
+    margin-top: 20px;
+    font-size: 22px;
+    
+}
+.container::-webkit-scrollbar{
+    width:0px;
+}
+.col-lg-3{
+    background-color: brown;
+}
+#cont2{
+    max-width: 100%;
+    
+}
+.days1{
+    border: 2px solid white;
+    padding: 50px;
+    border-radius: 10px;
+    height:fit-content;
+    padding-bottom: 70px;
+        
+}
+#a1,#a2,#a3,#a4{
+    padding: 0px;
+    margin: 0px;
+}
+h3{
+    font-size: 20px;
+}
+
+.container-fluid{
+    width:90%;
+}
+
+#cont,#cont1,.days{
+    background-color: rgba(255,255,255,0.06);
+    backdrop-filter: blur(20px);
+    border:1px solid rgba(255,255,255,0.1);
+    box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+    color:#fcfcfc;
+    font-family:'Poppins',sans-serif;
+}
+.days1{
+    box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+    
+}
